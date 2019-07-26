@@ -20,6 +20,14 @@
   <build>
     <finalName>helloworld</finalName>
     <plugins>
+	  <plugin>
+            <groupId>com.amashchenko.maven.plugin</groupId>
+            <artifactId>gitflow-maven-plugin</artifactId>
+            <version>1.12.0</version>
+            <configuration>
+                <!-- optional configuration -->
+            </configuration>
+        </plugin>
       <plugin>
         <groupId>org.jacoco</groupId>
         <artifactId>jacoco-maven-plugin</artifactId>
